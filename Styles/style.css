@@ -412,6 +412,14 @@ body{
         padding-top: 0 !important;
         font-size:20px;
     }
+	header .headercont ul.menuitems li a{
+    border-bottom: 0px solid #ffffff;
+    
+}
+header .headercont ul.menuitems li:hover a,
+header .headercont ul.menuitems li:focus a{
+        border-bottom: 0px solid #f53240;
+    }
     header .headercont .menu{
         display: none;
     }
@@ -511,7 +519,12 @@ body{
         padding-bottom: 17px;
     }
     header .headercont ul.menuitems li a{
+    border-bottom: 0px solid #ffffff;
     
+}
+header .headercont ul.menuitems li:hover a,
+header .headercont ul.menuitems li:focus a{
+        border-bottom: 0px solid #f53240;
     }
     header .headercont .menu{
         display: none;
